@@ -74,6 +74,10 @@ const windDirRotate = computed(() => {
 
 <style lang="scss">
 .location-card {
+
+	font-family: IBM Plex Sans;
+	font-size: 1rem;
+
 	&__location {
 		font-weight: 600;
 	}

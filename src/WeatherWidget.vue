@@ -46,6 +46,14 @@ const updateLoc = (locations: LocationCoord[]) => {
 
 <style lang="scss">
 .widget {
+
+	* {
+		box-sizing: border-box;
+	}
+
+	font-family: IBM Plex Sans;
+	font-size: 1rem;
+
 	button {
 		border: none;
 	}

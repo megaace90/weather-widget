@@ -123,6 +123,10 @@ deep: true,
 <style lang="scss">
 
 .settings {
+
+	font-family: IBM Plex Sans;
+	font-size: 1rem;
+	
 	&__header {
 		display: grid;
 		grid-template: auto / 1fr auto;
