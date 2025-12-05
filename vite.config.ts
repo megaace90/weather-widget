@@ -11,5 +11,5 @@
 			fileName: 'weather-widget',
 		},
 	},
-	base: process.env.NODE_ENV === 'production' ? './' : '/weather-widget/'
+	base: './'
  })
