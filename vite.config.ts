@@ -7,7 +7,6 @@
 		lib: {
 			entry: 'src/main.ts',
 			formats: ['iife'],
-			name: 'WeatherWidget',
 			fileName: 'weather-widget',
 		},
 	},
