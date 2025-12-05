@@ -49,6 +49,8 @@ const updateLoc = (locations: LocationCoord[]) => {
 
 	* {
 		box-sizing: border-box;
+		padding: 0;
+		margin: 0;
 	}
 
 	font-family: IBM Plex Sans;
