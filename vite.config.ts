@@ -7,15 +7,9 @@
 		lib: {
 			entry: 'src/main.ts',
 			formats: ['iife'],
+			name: 'WeatherWidget',
 			fileName: 'weather-widget',
 		},
-	},
-  css: {
-		preprocessorOptions: {
-			scss: {
-				additionalData: `@use "./src/assets/styles/shared.scss" as *;`
-			}
-		}
 	},
 	base: '/weather-widget/'
  })
