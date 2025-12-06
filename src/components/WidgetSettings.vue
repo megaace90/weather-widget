@@ -60,8 +60,12 @@ onClickOutside(searchForm, () => {
 	searchedCities.value = []
 })
 
+let timeoutId: ReturnType<typeof setTimeout> | null = null
 watch(myLocations, () => {
-	emit('updateLocations', myLocations.value)
+	if (timeoutId) clearTimeout(timeoutId)
+	timeoutId = setTimeout(() => {
+		emit('updateLocations', myLocations.value)
+	}, 2000)
 }, {
 deep: true,
 })

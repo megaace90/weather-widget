@@ -3,7 +3,9 @@ import { API_KEY, BASE_URL, WEATHER_URL } from "../helpers/constants"
 import { type LocationCoord, type CityWeather } from "../helpers/types"
 import { HttpError } from "../helpers/types"
 
+
 export const useLoadWeather = (locations: MaybeRefOrGetter<LocationCoord[]>) => {
+
   const weather = ref<CityWeather[]>([])
   const isLoading = ref(false)
 
@@ -40,7 +42,7 @@ export const useLoadWeather = (locations: MaybeRefOrGetter<LocationCoord[]>) => 
     } finally {
       isLoading.value = false
     }
-  }, { immediate: true, deep: true })
+  	}, { immediate: true, deep: true })
 
   return {
     weather,

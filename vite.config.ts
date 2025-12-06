@@ -6,7 +6,8 @@ export default {
     lib: {
       entry: 'src/main.ts',
       name: 'WeatherWidget',
-      formats: ['iife']
+      formats: ['iife'],
+			filename: 'weather-widget-v0.0.1'
     },
     rollupOptions: {
       external: ['vue'],
