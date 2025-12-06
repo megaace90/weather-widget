@@ -98,11 +98,4 @@ const updateLoc = (locations: LocationCoord[]) => {
 		row-gap: 60px;
 	}
 }
-
-
-// @container (min-width: 600px) {
-//   .widget__container { 
-// 		max-width: 320px;
-// 	}
-// }
 </style>
