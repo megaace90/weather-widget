@@ -80,9 +80,6 @@ const windDirRotate = computed(() => {
 		margin: 0;
 	}
 
-	font-family: IBM Plex Sans;
-	font-size: 1rem;
-
 	&__location {
 		font-weight: 600;
 	}

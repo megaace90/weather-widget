@@ -17,7 +17,7 @@ export const useGetLocation = () => {
 				(err) => {
 					console.warn(`Ошибка: ${err.message}`);
 				},
-				{ enableHighAccuracy: true, timeout: 5000, maximumAge: 0 }
+				{ enableHighAccuracy: true, timeout: 15000, maximumAge: 0 }
 			);
 		}
 	}

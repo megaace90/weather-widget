@@ -129,9 +129,6 @@ deep: true,
 		margin: 0;
 	}
 
-	font-family: IBM Plex Sans;
-	font-size: 1rem;
-	
 	&__header {
 		display: grid;
 		grid-template: auto / 1fr auto;
