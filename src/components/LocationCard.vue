@@ -81,6 +81,7 @@ const windDirRotate = computed(() => {
 	}
 
 	&__location {
+		font-size: 1.2rem;
 		font-weight: 600;
 	}
 	&__main-info {

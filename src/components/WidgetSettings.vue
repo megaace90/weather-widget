@@ -134,6 +134,7 @@ deep: true,
 		grid-template: auto / 1fr auto;
 		margin-bottom: 24px;
 		p {
+			font-size: 1.2rem;
 			font-weight: 600;
 		}
 	}
@@ -154,6 +155,7 @@ deep: true,
 		align-items: center;
 		column-gap: 8px;
 		padding: 8px;
+		border-radius: 8px;
 		background-color: rgb(230, 230, 230);
 		&:not(:last-child) {
 			margin-bottom: 24px;
@@ -171,6 +173,7 @@ deep: true,
 				padding: 8px;
 				flex: 1;
   			min-width: 100px;
+				border-radius: 8px;
 			}
 			button {
 				padding: 8px;
