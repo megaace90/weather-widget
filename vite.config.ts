@@ -7,7 +7,7 @@ export default {
       entry: 'src/main.ts',
       name: 'WeatherWidget',
       formats: ['iife'],
-			filename: 'weather-widget-v0.0.1'
+			fileName: 'weather-widget-v0.0.1'
     },
     rollupOptions: {
       external: ['vue'],
